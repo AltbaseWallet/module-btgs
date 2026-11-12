@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "btgs",
+  "name": "Bitcoin Gold",
+  "ticker": "BTGS",
+  "version": "0.1.9",
+  "kind": "utxo",
+  "networkId": "btgs-mainnet",
+  "decimals": 8,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "btgs-wallet",
+  "coin": {
+    "id": "btgs",
+    "name": "Bitcoin Gold",
+    "ticker": "BTGS",
+    "networkId": "btgs-mainnet",
+    "supportsMemo": false,
+    "satsPerCoin": 100000000,
+    "utxoReadProfile": "scan-utxo",
+    "cryptoParams": {
+      "p2pkhPrefix": 38,
+      "p2shPrefix": 22,
+      "wifPrefix": 176,
+      "derivationPath": "m/44'/18888'/0'/0/0",
+      "bech32Hrp": "bcg"
+    }
+  },
+  "icon": "icon.png"
+}
